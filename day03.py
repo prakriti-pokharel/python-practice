@@ -1,7 +1,7 @@
 #Ask user to enter a number
 n= int(input ("Enter a number: "))
 
-#Condition
+#Conditionals
 if n> 10:
     print(n,"is greater than 10")
 elif n<10:
@@ -12,9 +12,9 @@ else:
 #Function returning even/odd
 def odd_even(n):
     if n %2 ==0:
-        return str(n) + "is Even"
+        return str(n) + " is Even"
     else:
-        return str(n) + "is Odd"
+        return str(n) + " is Odd"
 
 #Calling the function
 print(odd_even(n))
