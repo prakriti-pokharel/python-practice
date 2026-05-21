@@ -18,8 +18,7 @@ with open("students.txt", "r") as file:
     for x in content2:
         print(x.strip())
 
-''' Notes:
-- You can only read a file once per open
-- readlines() gives you a list where each line is a separate item
-- .strip() removes whitespace from both ends (beginning and end of the string)
-'''
+# Notes:
+# - You can only read a file once per open
+# - readlines() gives you a list where each line is a separate item
+# - .strip() removes whitespace from both ends
