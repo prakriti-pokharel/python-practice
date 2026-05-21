@@ -6,7 +6,20 @@ with open("students.txt", "w") as file: # Created a file named "students.txt" an
     file.write("Ellie Goulding\n")
     file.write("Charlie Puth\n")
 
-# Read and print each name
-with open("students.txt","r") as file:
-    content = file.read()
-    print(content)
+# First read
+with open("students.txt", "r") as file:
+    content1 = file.read()
+    print(content1)
+
+# Second read
+with open("students.txt", "r") as file:
+    content2 = file.readlines()
+    print (content2)
+    for x in content2:
+        print(x.strip())
+
+''' Notes:
+- You can only read a file once per open
+- readlines() gives you a list where each line is a separate item
+- .strip() removes whitespace from both ends (beginning and end of the string)
+'''
