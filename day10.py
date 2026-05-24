@@ -11,7 +11,7 @@ for x in numbers:
         newnum.append(x)
 print(newnum)
 
-# Loop through given dictionary and print only students who scored above 50
+# Loop through dictionary and print only students who scored above 50
 students = {"Ram": 45, "Sita": 72, "Hari": 38, "Gita": 91, "Raj": 55}
 print("Students who scored more than 50:")
 for key,value in students.items():
