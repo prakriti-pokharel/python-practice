@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("StudentsPerformance.csv")
+df = pd.read_csv(r"C:\Users\Meridian\OneDrive\Desktop\pp_programs\python-practice\StudentsPerformance.csv")
 # Dataset downloaded from kaggle
 
 pd.set_option('display.max_columns', None)
